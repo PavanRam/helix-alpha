@@ -52,19 +52,23 @@
   <header></header>
   <main class="error">
     <div class="section">
-      <picture>
-        <source media="(min-width: 650px)" srcset="https://googlechrome.github.io/samples/picture-element/images/kitten-large.png">
-        <source media="(min-width: 465px)" srcset="https://googlechrome.github.io/samples/picture-element/images/kitten-medium.png">
-        <!-- img tag for browsers that do not support picture element -->
-        <img src="https://googlechrome.github.io/samples/picture-element/images/kitten-small.png" alt="a cute kitten">
-      </picture>
+      
       <svg viewBox="1 0 38 18" class="error-number-up">
         <text x="0" y="17">404</text>
       </svg>
-      <h1 class="error-message">Page Not Found!</h1>
+      <div>
+        <picture>
+          <source media="(min-width: 650px)" srcset="https://googlechrome.github.io/samples/picture-element/images/kitten-large.png">
+          <source media="(min-width: 465px)" srcset="https://googlechrome.github.io/samples/picture-element/images/kitten-medium.png">
+          <!-- img tag for browsers that do not support picture element -->
+          <img src="https://googlechrome.github.io/samples/picture-element/images/kitten-small.png" alt="a cute kitten">
+        </picture>
+        <h1 class="error-message">Page Not Found!</h1>
       <p class="button-container">
         <a href="/" class="button secondary error-button-home">Go home</a>
       </p>
+      </div>
+      
     </div>
   </main>
   <footer></footer>
