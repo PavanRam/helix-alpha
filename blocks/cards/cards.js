@@ -20,6 +20,7 @@ export default async function decorate(block) {
   const cardText = document.createElement("a");
   cardText.innerHTML= `${placeholders.chm}`;
   cardText.style.backgroundColor = "crimson";
-  cardText.style.text-align = "center";
+  cardText.classList.add("load-more");
+  /*cardText.style.text-align = "center";*/
   block.append(cardText);
 }
