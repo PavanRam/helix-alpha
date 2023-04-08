@@ -4,7 +4,7 @@ export default async function decorate(block) {
   /* change to ul, li */
   const ul = document.createElement('ul');
   const placeholders = await fetchPlaceholders('');
-  console.info(`placeholders :${placeholders}`);
+  console.info(`placeholders :${Json.stringify(placeholders)}`);
   [...block.children].forEach((row) => {
     const li = document.createElement('li');
     li.innerHTML = row.innerHTML;
