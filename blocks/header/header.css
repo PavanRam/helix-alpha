@@ -6,7 +6,7 @@ header .nav-wrapper {
   position: fixed;
 }
 
-.secure > header {
+.secure > header > .nav-wrapper {
   background-color: var(--secure-header-color);
 }
 
