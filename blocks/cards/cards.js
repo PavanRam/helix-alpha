@@ -17,8 +17,9 @@ export default async function decorate(block) {
   ul.querySelectorAll('img').forEach((img) => img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }])));
   block.textContent = '';
   block.append(ul);
-  const cardText = document.createElement("div");
+  const cardText = document.createElement("a");
   cardText.innerHTML= `${placeholders.chm}`;
-  cardText.style.backgroundColor = "orange";
+  cardText.style.backgroundColor = "crimson";
+  cardText.style.text-align = "center";
   block.append(cardText);
 }
