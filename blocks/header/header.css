@@ -6,7 +6,7 @@ header .nav-wrapper {
   position: fixed;
 }
 
-.secure > header .nav-wrapper {
+.secure > header .nav-wrapper { /*Targeting specific section of site using class found at body and further targetting specific elements*/
   background-color: var(--secure-header-color);
 }
 
