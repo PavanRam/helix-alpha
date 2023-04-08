@@ -18,7 +18,8 @@
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
   --text-color: #000;
-  --header-color: #f7d8c7 ;
+  --header-color: #dac9ed;
+  --secure-header-color: rgb(226, 43, 150);
 
   /* fonts */
   --body-font-family: 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
